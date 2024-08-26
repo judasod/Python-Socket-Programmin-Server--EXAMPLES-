@@ -13,7 +13,7 @@ SOCKET.listen(1)
 
 while True:
     c, a = SOCKET.accept()
-    print('C:/>  ', a)
+    print('C:\>   ', a)
     # Program opens port on localhost and waits for client to connect 
     c.send(b"TY!")
     c.close()
