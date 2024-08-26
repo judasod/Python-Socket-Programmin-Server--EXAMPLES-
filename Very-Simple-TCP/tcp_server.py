@@ -15,6 +15,6 @@ while True:
     c, a = SOCKET.accept()
     print('C:/>  ', a)
     # Program opens port on localhost and waits for client to connect 
-    c.send(b"Thank YOU 4 connecting!")
+    c.send(b"TY!")
     c.close()
 
