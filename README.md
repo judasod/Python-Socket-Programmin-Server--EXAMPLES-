@@ -1,2 +1,2 @@
-# Python-Socket-Programmin-Server-Examples--
+# Python-Socket-Programmin-Server--EXAMPLES-
 ##   Examples of client-server communication    
