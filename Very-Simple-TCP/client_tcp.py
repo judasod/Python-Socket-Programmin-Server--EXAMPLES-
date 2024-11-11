@@ -8,5 +8,5 @@ CREDENTIALS = tuple((LOCALHOST, _PORT))
 SOCKET = sck.socket(sck.AF_INET, sck.SOCK_STREAM)
 SOCKET.connect(CREDENTIALS)
 
-print(SOCKET.recv(128).decode('UTF-16'))
+print(SOCKET.recv(512).decode('UTF-16'))
 
